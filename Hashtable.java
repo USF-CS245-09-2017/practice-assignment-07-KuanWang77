@@ -66,7 +66,7 @@ public class Hashtable {
         listSize++;
         head = arrayList.get(index);
         Node newNode = new Node(key, value);
-        newNode.setNext(head);;
+        newNode.setNext(head);
         arrayList.set(index, newNode);
 
 	}
